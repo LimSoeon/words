@@ -1,0 +1,28 @@
+.Heart2 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 208, 208);
+  transform: rotate(-45deg);
+  margin: 50px auto; /* 수평 중앙 정렬 */
+}
+
+.Heart2::before,
+.Heart2::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 208, 208);
+  border-radius: 50%;
+}
+
+.Heart2::before {
+  top: -25px;
+  left: 0;
+}
+
+.Heart2::after {
+  left: 25px;
+  top: 0;
+}

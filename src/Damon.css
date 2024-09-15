@@ -1,0 +1,17 @@
+.Damon {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/Damon.jpeg");
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.white {
+  height: 100vh;
+  width: 50vh;
+  background-color: #ffffff;
+  text-align: center;
+}
