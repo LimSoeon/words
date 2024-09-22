@@ -2,7 +2,7 @@
   position: relative;
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: #ff0000;
   transform: rotate(-45deg);
   margin: 50px auto; /* 수평 중앙 정렬 */
 }
@@ -13,7 +13,7 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: #ff0000;
   border-radius: 50%;
 }
 
